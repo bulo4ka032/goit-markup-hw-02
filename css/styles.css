@@ -179,6 +179,7 @@ body {
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+  cursor: pointer;
 }
 
 .filter-button:hover,
