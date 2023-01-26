@@ -3,6 +3,7 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #2e2f42;
   --secondary-color: #434455;
+  --accent-color: #ffffff;
 }
 
 .list {
@@ -70,7 +71,7 @@ body {
   letter-spacing: 0.02em;
   background-color: var(--main-color);
 
-  color: #FFFFFF
+  color: var(--accent-color)
 }
 
 .order-botton {
@@ -82,7 +83,7 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   background: #4D5AE5;
-  color: #FFFFFF; 
+  color: var(--accent-color); 
 }
 
 /* =================== Features ================ */
@@ -173,7 +174,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background: #404bbf;
-  color: #ffffff;
+  color: var(--accent-color);
 }
 
 .project-title {
