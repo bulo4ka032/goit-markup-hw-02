@@ -50,6 +50,11 @@ body {
 
   color: var(--main-color);
 }
+
+.menu-link:focus,
+.menu-link:hover {
+  color: #404BBF;
+}
 /* ========== Header-right */
 
 .contact-mail,
@@ -86,6 +91,10 @@ body {
   color: var(--accent-color); 
 }
 
+.order-botton:hover,
+.order-botton:focus {
+  background-color: #404BBF;
+}
 /* =================== Features ================ */
 
 .feature-title {
@@ -169,6 +178,7 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .filter-button:hover,
